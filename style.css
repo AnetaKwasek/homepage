@@ -1,17 +1,70 @@
 body {
-    background: #9baf42;
+    background: white;
 }
 
 .mainHeader {
     color: tomato;
 }
+
+.main {
+    margin-top: 5%;
+}
+
 .sectionHeader{
     color: #1460aa;
 }
 
 p {
-    color: aqua;
+    color: black;
 }
 .NazwaDnia {
     color: red;
+}
+
+.about {
+    max-width: 100%;
+    width: 700px;
+    height: 400px; 
+    position: relative; 
+}
+
+.paragraph {
+    padding: 
+}
+
+.box,  {
+    width: 100px;
+    height: 100px; 
+    background: yellowgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+.box {
+    z-index: 3;
+    position: fixed;
+}
+
+
+.top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: yellowgreen;
+}
+
+.navigation {
+    position: fixed;
+    background: white;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
 }

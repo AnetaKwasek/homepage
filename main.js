@@ -1,4 +1,5 @@
-alert ('siema! Nazywam się Aneta Kwasek i mam 23 lat');
+
+//alert ('siema! Nazywam się Aneta Kwasek i mam 23 lat');
 console.log ('Siema!')
 const name = 'Aneta';
 const age = 23;
